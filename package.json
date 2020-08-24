@@ -1,0 +1,30 @@
+{
+  "name": "ma-ma-eat-demo-bot",
+  "version": "1.0.0",
+  "description": "A MaMaEat telegram bot (Demo).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "chugor",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "telegraf": "^3.38.0",
+    "telegraf-inline-menu": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.4"
+  }
+}

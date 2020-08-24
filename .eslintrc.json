@@ -1,0 +1,31 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parser": "",
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        ""
+    ],
+    "rules": {
+        "semi": "off",
+        "eol-last": "warn",
+        "quotes": "warn",
+        "object-curly-spacing": "warn",
+        "no-multiple-empty-lines": "warn",
+        "no-trailing-spaces": "warn",
+        "no-unused-vars": "warn",
+        "camelcase": "off",
+        "indent": "warn",
+        "space-before-function-paren": "off",
+        "comma-dangle": "warn",
+        "no-multi-spaces": "warn"
+    }
+}
